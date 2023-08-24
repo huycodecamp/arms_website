@@ -1,0 +1,23 @@
+/* header2 */
+
+.header2 {
+    background-color: #0e0ec8;
+    height: 80px;
+    max-width: 100%;
+    font-size: 15px;
+    display: flex;
+  }
+
+  .header2 nav a {
+    max-width: 100%;
+    background-color: #0e0ec8;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .header2 ul li {
+    padding: 10px;
+  }
