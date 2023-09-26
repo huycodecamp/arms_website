@@ -11,13 +11,15 @@
 .btn-tuyen-sinh{
   font-size: 12px;
   color: white;
-  padding: 24px 47px 43px;
+  padding: 24px 47px 29px;
   background: #ffbd49;
   border: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   position:absolute;
   top: 0;
+  right: 200px;
+  z-index: 2;
 
 }
 .block1 {

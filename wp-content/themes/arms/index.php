@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/custom-font.css" />
-    <!-- Luc nao cung phai dat css cua minh o ben duoi cac thu vien thi moi overrride dc -->
-    <!-- style section -->
-    <link rel="stylesheet" href="./assets/css/homepage.css" />
-    <?php get_template_part('/pages/csshome'); ?>
-</head>
-
-<body>
-    <?php get_template_part('/pages/header'); ?>
+<?php get_header() ?>
     <div class="header3">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
@@ -28,13 +8,13 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/block1.png" class="d-block w-100" alt="..." />
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -47,7 +27,7 @@
             </button>
         </div>
         <div class="wrapper-linkk">
-            <img src="./assets/images/demo/imgs/logo.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/logo.png" />
             <div class="bao-boc">
                 <div class="bao-item-link">
                     <a href="#" class="item-linkk">
@@ -82,7 +62,7 @@
             <div class="row mx-0">
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -104,7 +84,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -126,7 +106,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -162,7 +142,7 @@
                 <div class="row mx-0">
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -184,7 +164,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -206,7 +186,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -244,7 +224,7 @@
             <div class="row mx-0">
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -266,7 +246,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -288,7 +268,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -324,7 +304,7 @@
                 <div class="row mx-0">
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -346,7 +326,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -368,7 +348,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -408,7 +388,7 @@
             <div class="slide-slick">
                 <!-- slide 1 -->
                 <div class="thong-tin" style="display: flex">
-                    <img src="./assets/images/demo/imgs/hs.png" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/hs.png" />
                     <div>
                         <div class="quang-ba">
                             10X là đại sứ học thuật trường Ams trúng tuyển đại học top 1
@@ -429,7 +409,7 @@
                 </div>
                 <!-- slide 2 -->
                 <div class="thong-tin" style="display: flex">
-                    <img src="./assets/images/demo/imgs/hs.png" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/hs.png" />
                     <div>
                         <div class="quang-ba">
                             10X là đại sứ học thuật trường Ams trúng tuyển đại học top 1
@@ -450,7 +430,7 @@
                 </div>
                 <!-- slide 3 -->
                 <div class="thong-tin" style="display: flex">
-                    <img src="./assets/images/demo/imgs/hs.png" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/hs.png" />
                     <div>
                         <div class="quang-ba">
                             10X là đại sứ học thuật trường Ams trúng tuyển đại học top 1
@@ -494,7 +474,7 @@
                 <div class="row mx-0">
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -516,7 +496,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -538,7 +518,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -576,7 +556,7 @@
             <div class="row mx-0">
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -598,7 +578,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -620,7 +600,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -656,7 +636,7 @@
                 <div class="row mx-0">
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -678,7 +658,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -700,7 +680,7 @@
                     </div>
                     <div class="item-card col-lg-4 col-md-12 px-3">
                         <div class="bg-white">
-                            <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                            <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                             <div class="content px-3">
                                 <div class="new">Tin tức</div>
                                 <div class="description">
@@ -738,7 +718,7 @@
             <div class="row mx-0">
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -760,7 +740,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -782,7 +762,7 @@
                 </div>
                 <div class="item-card col-lg-4 col-md-12 px-3">
                     <div class="bg-white">
-                        <img class="avt" src="./assets/images/demo/imgs/avt-1.png" />
+                        <img class="avt" src="<?php echo get_template_directory_uri(); ?>/assets/images/demo/imgs/avt-1.png" />
                         <div class="content px-3">
                             <div class="new">Tin tức</div>
                             <div class="description">
@@ -809,31 +789,4 @@
 
     <!-- block4 -->
 
-
-    <?php get_template_part('/pages/footer'); ?>
-
-    <!-- hs ưu tú -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script src="./assets/js/homepage.js"></script>
-
-    <!-- Đây là phần chuyển trang của cái mình bảo bạn nhé -->
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".slide-slick").slick({
-                dots: true,
-                speed: 300,
-                slidesToShow: 1,
-                prevArrow: $(".custom-prev"), //cái này là class của thằng lùi nhé
-                nextArrow: $(".custom-next"), //cái này là class của thằng tiền nhé
-                // nói chung hai thằng prevArrow và nextArrow ở trên nó sẽ lấy cái nội dung bên trong của cái class đó. Bạn cho nó thành hình gì nó sẽ thành hình đó nhé. <3333
-            });
-        });
-    </script>
-</body>
-
-</html>
+<?php get_footer() ?>
